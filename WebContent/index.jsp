@@ -12,11 +12,11 @@
 </head>
 <body>
 	<!-- Aca empieza lo que se va a mostrar en la pagina -->
-	<h1>Welcome To Struts 2!</h1>
+	<h1>Bienvenidos a mi página!</h1>
 	<p>
 		<!-- este es un link al action "hello" que está definido en el struts.xml -->
-		<a href="<s:url action='hello'/>">Ejecutar el action (utn.frd.action.HelloWorldAction -> metodo execute)</a>
-		Esta regla está definida en el archivo struts.xml
+		<a href="<s:url action='personas'/>">Añadir personas</a>
+		
 	</p>
 </body>
 </html>
